@@ -1,0 +1,49 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+knou_subject_info_app/node_modules/
+
+# Expo
+knou_subject_info_app/.expo/
+knou_subject_info_app/dist/
+knou_subject_info_app/web-build/
+
+# Native
+knou_subject_info_app/*.orig.*
+knou_subject_info_app/*.jks
+knou_subject_info_app/*.p8
+knou_subject_info_app/*.p12
+knou_subject_info_app/*.key
+knou_subject_info_app/*.mobileprovision
+
+# Metro
+knou_subject_info_app/.metro-health-check*
+
+# debug
+knou_subject_info_app/npm-debug.*
+knou_subject_info_app/yarn-debug.*
+knou_subject_info_app/yarn-error.*
+
+# macOS
+knou_subject_info_app/.DS_Store
+knou_subject_info_app/*.pem
+
+# local env files
+knou_subject_info_app/.env*.local
+
+# typescript
+knou_subject_info_app/*.tsbuildinfo
+
+# config file
+knou_subject_info_app/firebaseConfig_real.js
+
+# knou_subject_info_app
+#=========================================================
+# py_datahandle
+
+# python venv
+py_datahandle/.venv/
+
+# configfile 
+py_datahandle/credentials_real.json
+py_datahandle/knou-app-firebase-adminsdk-wo3gq-db44c1b2d1.json
