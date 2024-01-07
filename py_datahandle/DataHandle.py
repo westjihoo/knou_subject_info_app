@@ -125,7 +125,11 @@ for hakgi in hakgis :
 		result_dic = request_haksa(hakgi, year, mj)
 		ref = db.reference(f'/subjects/{mj}')
 		ref.update(result_dic)
+
 		print(f'{dic_Mjcode[mj]} : {len(ref.get())}과목')
+
+		ref = db.reference(f'/subjects/all')
+		ref.update(result_dic)
 
 
 # json 파일로 저장
