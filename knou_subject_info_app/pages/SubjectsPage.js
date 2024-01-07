@@ -37,6 +37,7 @@ export default function Subjet({ }) {
 	const [isCollapsed, setIsCollapsed] = useState(true)
 	const [isPickOpn, setIsPickOpn] = useState(false)
 	const [options, setOptions] = useState([
+		{ value: "all", label: "전체학과"},
 		{ value: "10", label: "국어국문학과" },
 		{ value: "11", label: "영어영문학과" },
 		{ value: "12", label: "중어중문학과" },
