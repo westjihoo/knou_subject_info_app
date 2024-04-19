@@ -5,13 +5,13 @@
 
 ## 환경
  - DB업로드
-   Python 3.7.9
-   Firebase
+  Python 3.7.9
+  Firebase
 
  - 앱
-   Reactnative 0.72.6
-   react 18.2.0
-   Expo 49.0.15
+  Reactnative 0.72.6
+  React 18.2.0
+  Expo 49.0.15
 
 ## 목적
  홈페이지를 통해 교과목 정보 조회 시, 불편함을 느껴 개선해보고자 제작
